@@ -15,21 +15,27 @@ body {
     header {
         background-color: #000000;
         color: #fff;
+        height: 88px;
     }
 
     .navigation {
         margin-right: 30px;
         margin-left: 30px;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 15px;
-    }
-
-    .navigation div div {
-        list-style-type: none;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .navigation div div a {
+    .navigation div {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 60px;
+        padding-left: 50px;
+    }
+
+    .navigation div  a {
         color: #fff;
         font-size: 24px;
         text-decoration: none;
