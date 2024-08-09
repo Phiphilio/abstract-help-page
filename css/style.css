@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+/* pour les écrans desktop*/
+@media screen and (min-width: 720px) {
+
+    .container {
+        padding-left: calc(15px*2);
+        /*calcul de la taille voulu*/
+        padding-right: calc(15px*2);
+    }
+
+    /** barre de navigation**/
+    header {
+        background-color: #000000;
+        color: #fff;
+    }
+
+    .navigation {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .navigation div div {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .navigation div div a {
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    #HelpLink {
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 2px solid #fff;
+        height: 35px;
+
+    }
+
+    #HelpLink:hover {
+        text-decoration: underline;
+
+    }
+
+
+    .navigation div {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 60px;
+        padding-left: 50px;
+    }
+
+    .submitButton {
+        background-color: #000000;
+        font-size: 24px;
+        color: white;
+        border: solid 1px;
+        border-radius: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .submitButton:hover {
+        cursor: pointer;
+    }
+
+    .signButton {
+        background-color: #4C5FD5;
+        font-size: 24px;
+        color: white;
+        border: solid 0px;
+        border-radius: 5px;
+        padding-right: 35px;
+        padding-left: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 1rem;
+    }
+
+    .signButton:hover {
+        background-color: #fff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
