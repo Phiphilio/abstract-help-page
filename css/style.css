@@ -35,17 +35,19 @@ body {
         padding-left: 50px;
     }
 
-    .navigation div  a {
+    .navigation div a {
         color: #fff;
         font-size: 24px;
         text-decoration: none;
     }
+
     #HelpLink {
         margin-left: 10px;
         padding-left: 10px;
         border-left: 2px solid #fff;
         height: 35px;
-
+        display: flex;
+        align-items: center;
     }
 
     #HelpLink:hover {
@@ -95,4 +97,67 @@ body {
         color: #000000;
         cursor: pointer;
     }
+
+    /*pour la zone de l'input*/
+    .middleTop {
+        display: flex;
+        justify-content: center;
+        background-color: #dadbf1;
+        height: 400px;
+    }
+
+    .searchBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 80px;
+        gap: 30px;
+    }
+
+    .searchForm {
+        display: flex;
+        align-items: center;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .searchForm:hover {
+        border: 1px solid #4C5FD5;
+        color: #4C5FD5;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        width: 690px;
+        border-radius: 5px 0 0 5px;
+        height: 50px;
+    }
+
+    input::placeholder {
+        color: #b7b8be;
+        font-size: 100%;
+    }
+
+
+    .arrowButton {
+        padding: 10px;
+        background-color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrowButton:hover {
+        color: #4C5FD5;
+    }
+
+
 }
