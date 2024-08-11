@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+main {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* pour les écrans desktop*/
 @media screen and (min-width: 720px) {
 
@@ -159,5 +165,26 @@ body {
         color: #4C5FD5;
     }
 
+    /*la zone du milieu*/
+    .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .middle div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 70.5%;
+        gap: 50px;
+    }
+
+    .middle div div {
+        display: flex;
+        border: 1px solid;
+        width: 350px;
+        /* flex-direction: row; */
+    }
 }
