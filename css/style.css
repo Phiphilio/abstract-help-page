@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: 'Lato';
+    /* voiolà comment j'ajoute une police d'écriture*/
 }
 
 main {
@@ -53,7 +55,6 @@ main {
         border-left: 2px solid #fff;
         height: 35px;
         display: flex;
-        align-items: center;
     }
 
     #HelpLink:hover {
@@ -121,12 +122,14 @@ main {
         gap: 30px;
     }
 
+
     .searchForm {
         display: flex;
         align-items: center;
         border: 1px solid #000000;
         border-radius: 5px;
         background-color: #fff;
+
     }
 
     .searchForm:hover {
@@ -166,25 +169,29 @@ main {
     }
 
     /*la zone du milieu*/
-    .middle {
+    .middle-container {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .middle div {
+    .block-liste-item {
+        display: flex;
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .block-liste-item div {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        max-width: 70.5%;
-        gap: 50px;
     }
 
-    .middle div div {
-        display: flex;
-        border: 1px solid;
-        width: 350px;
-        /* flex-direction: row; */
+
+    .categorie-liste-item {
+        min-height: 115px;
+        width: 50%;
+        margin-bottom: 48px;
+        padding-right: 15px;
+        max-width: 350px;
     }
 }
