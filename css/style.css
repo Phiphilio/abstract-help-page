@@ -110,7 +110,7 @@ main {
         display: flex;
         justify-content: center;
         /*pour le gradient, j'ai utilisé le cite  : https://www.learnui.design/tools/gradient-generator.html*/
-        background: linear-gradient(180deg, #4c5fd5, #5464d7, #8285e1, #d5d3f5, #faf9fe, #ffffff);
+        background: radial-gradient(circle at 50% 0%, #4c5fd5, #5464d7, #8285e1, #d5d3f5, #faf9fe, #ffffff);
         height: 400px;
     }
 
